@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- Titel und Beschreibung -->
+  <title>Blablabla – Learning App</title>
+  <meta name="description" content="Das Lernspiel nach dem Tabu-Prinzip – Begriffe erklären, Tabuwörter vermeiden, Spaß haben!">
+  <meta name="theme-color" content="#1976d2">
+
+  <!-- Open Graph (z. B. WhatsApp, Facebook, LinkedIn) -->
+  <meta property="og:title" content="Blablabla – Learning App" />
+  <meta property="og:description" content="Das Lernspiel nach dem Tabu-Prinzip – Begriffe erklären, Tabuwörter vermeiden, Spaß haben!" />
+  <meta property="og:image" content="https://blablablade.netlify.app/icon-512.png" />
+  <meta property="og:url" content="https://blablablade.netlify.app/" />
+  <meta property="og:type" content="website" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Blablabla – Learning App" />
+  <meta name="twitter:description" content="Das Lernspiel nach dem Tabu-Prinzip – Begriffe erklären, Tabuwörter vermeiden, Spaß haben!" />
+  <meta name="twitter:image" content="https://blablablade.netlify.app/icon-512.png" />
+
+  <!-- Favicon & Web App Manifest -->
+  <link rel="icon" href="/favicon.ico" sizes="any" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="manifest.json" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app">Lade App...</div>
+
+  <!-- Auf jeder Seite erreichbar -->
+  <footer class="legal-footer">
+    <button type="button" class="footer-link" onclick="goto('impressum')">Impressum</button>
+  </footer>
+
+  <!-- Script -->
+  <script src="app.js"></script>
+
+  <!-- Für PDF-Export -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</body>
+</html>
